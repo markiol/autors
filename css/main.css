@@ -98,7 +98,7 @@ textarea {
    ========================================================================== */
 
 .wrapper {
-    width: 960px;
+    width: 959px;
     margin: 0 auto;
 }
 
@@ -111,17 +111,17 @@ textarea {
 
 .menu li, .menu_q li {
     display: inline-block;
-    padding: 12px;
+    padding: 11px;
     border-radius: 6px;
-    border: -2px white solid;
-    background: black;
+    border: 1px white solid;
     float: left;
-    margin: 1px;
-    width:11.54%;
+    width:11.8%;
+}
+.menu li.filled {
     background: -webkit-linear-gradient(top left, #57595B, #1F1D1E);
     background: linear-gradient(to bottom right, #57595B, #1F1D1E);
 }
-.menu .active, .menu li:hover {
+.menu .active, .menu li.filled:hover {
     background: -webkit-linear-gradient(top left, #00CDF6, #009EEB);
     background: linear-gradient(to bottom right, #00CDF6, #009EEB);
 }
@@ -138,19 +138,14 @@ a, a:hover {
     /*opacity: 0;*/
 }
 
-.menu:first-child, .menu_q:first-child {
-    margin-left: 0;
-    opacity: 0;
+.menu li.filled {
+    background: -webkit-linear-gradient(top left, #57595B, #1F1D1E);
+    background: linear-gradient(to bottom right, #57595B, #1F1D1E);
 }
 
-.menu:last-child, .menu_q:last-child {
-    margin-right: 0;
+.menu_wrap {
+    margin-top: -240px;
 }
-
-
-
-
-
 
 
 
